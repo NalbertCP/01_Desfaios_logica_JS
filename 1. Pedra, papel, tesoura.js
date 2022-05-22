@@ -49,4 +49,4 @@ if (contx>conty){
 
 //Alternativa à saída de dados
 console.log("O jogador" + (contx>conty? `X ganhou a disputa por ${contx} à ${conty}`:
-(contx<conty? `Y ganhou a disputa por ${conty} à ${contx}`:"O jogod empatou")))
+(contx<conty? `Y ganhou a disputa por ${conty} à ${contx}`:"O jogod empatou"))) 
