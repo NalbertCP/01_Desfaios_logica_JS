@@ -35,4 +35,3 @@ while(lin<=arraylin){
     j = 0
 }
 console.log(result)
-
