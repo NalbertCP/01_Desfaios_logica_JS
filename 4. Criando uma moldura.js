@@ -26,4 +26,4 @@ if (moldura.col>0) {
         console.log(coluna)
     }
 }
-console.log(linha)
+console.log(linha) 
