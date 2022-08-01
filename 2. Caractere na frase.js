@@ -15,7 +15,7 @@ for (let i=0; i<=texto.length;i++){
     }
 }
 
-console.log(`Quantidade de (${letra}) na frase = ${cont}`)
+console.log(`Quantidade de (${letra}) na frase = ${cont}`) 
 
 
 
