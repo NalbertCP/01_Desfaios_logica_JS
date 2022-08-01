@@ -3,11 +3,11 @@
 const prompt = require("prompt-sync")({sigint: true})
 let cont = 0
 
-const letra = prompt("Digite um caractere: ").toUpperCase() // ler o caractere e padroniza-lo
-console.log()                                               // e para maíscula
+const letra = prompt("Digite um caractere: ").toUpperCase() // ler o caractere e padroniza-lo para letra maiúscula
+console.log()                                               
 
-const texto = prompt("Agora digite uma frase: ").toUpperCase() // ler a frase e padroniza-la para
-console.log()                                                  // maiúscula
+const texto = prompt("Agora digite uma frase: ").toUpperCase() // ler a frase e padroniza-la para letra maiúscula
+console.log()                                                 
 
 for (let i=0; i<=texto.length;i++){
     if (texto.charAt(i)==letra){
